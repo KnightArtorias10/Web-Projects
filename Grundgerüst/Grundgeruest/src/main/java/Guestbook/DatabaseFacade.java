@@ -1,4 +1,5 @@
-package Guestbook;
+package EvaluationDB;
+
 
 import java.util.List;
 
@@ -10,12 +11,12 @@ import java.util.List;
  */
 public class DatabaseFacade {
 
-	public List<GuestbookEntry> listAllEntries() {
-		GuestbookEntryDAO dao = GuestbookEntryDAO.getInstance();
+	public List<EvalEntry> listAllEntries() {
+		EvaluationDAO dao = EvaluationDAO.getInstance();
 		return dao.loadAll();
 	}
 
-	public void insert(GuestbookEntry entry) {
-		GuestbookEntryDAO.getInstance().save(entry);
+	public void insert(EvalEntry entry) {
+		EvaluationDAO.getInstance().save(entry);
 	}
 }

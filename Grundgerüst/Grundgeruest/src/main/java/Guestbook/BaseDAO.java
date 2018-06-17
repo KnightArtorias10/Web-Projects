@@ -1,4 +1,4 @@
-package Guestbook;
+package EvaluationDB;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -12,7 +12,7 @@ import java.util.List;
 
 
 /**
- * Generisches Guestbook.BaseDAO mit CRUD-Funktionalit�t
+ * Generisches Guestbook.EvaluationDB.BaseDAO mit CRUD-Funktionalit�t
  * @author sonja
  *
  * @param <T> Klasse der zu persistierenden Entit�t
@@ -31,7 +31,7 @@ public abstract class BaseDAO<T, PK extends Serializable> {
 		
 		Configuration configuration = new Configuration();
 		configuration.configure("hibernate.cfg.xml");
-		configuration.addAnnotatedClass(GuestbookEntry.class);
+		configuration.addAnnotatedClass(EvalEntry.class);
 
 
 		StandardServiceRegistry serviceRegistry = new StandardServiceRegistryBuilder()
