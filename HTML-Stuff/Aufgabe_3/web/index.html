@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="library" content="Bücherei, leihen, Dornbirn">
+    <meta name="products" content="Film, Buch, Bücher, Spiel">
+    <meta name="literature" content="Sachbuch, Fachbuch, Fantasy, Drama, Roman">
+    <meta name="technologies" content="HTML, CSS, JavaScript">
+    <meta name="category" content="internet, web, app, web-application, book, library">
+
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+            border-right:1px solid #bbb;
+        }
+
+        li:last-child {
+            border-right: none;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #4CAF50;
+        }
+    </style>
+    <link rel="stylesheet" href="bibliothekLayout.css">
+    <meta charset="UTF-8">
+        <title>Bibliothek Dornbirn</title>
+    </head>
+<body>
+<center>
+    <img src="bibliothekHeader.jpg"></img>
+    <nav>
+        <ul>
+            <li><a href="buecher.html">Bücher</a><br></li>
+            <li><a href="filme.html">Filme</a><br></li>
+            <li><a href="spiele.html">Spiele</a> <br></li>
+            <li><a href="mailto:manuel.meyer@bibdorn.com"><img src="emailicon.png" width="20" height="20"/>E-Mail senden</a><br></li>
+            <li><a href="registrieren.html">ID beantragen</a></li>
+            <li><a href="gaestebuch.html">Gästebuch</a></li>
+        </ul>
+    </nav>
+
+    <br><h1>Bibliothek Dornbirn</h1>
+    Herzlich Willkommen in der Bibliothek Dornbirn!<br>
+    In unserer Bibliothek können Sie Bücher, Filme und Spiele <br>
+    ausleihen. <br>
+    <br>
+    <b>Adresse:</b> Dornbirn, Hochschulstraße 1<br>
+    <b>Geöffnet:</b> Von 8:00 - 21:00 Uhr <br>
+
+</center>
+</body>
+</html>
