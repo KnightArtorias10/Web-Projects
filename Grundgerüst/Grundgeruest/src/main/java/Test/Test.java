@@ -11,7 +11,7 @@ public class Test {
         DatabaseFacade dbf = new DatabaseFacade();
         List<EvalEntry> evalEntries = dbf.listAllEntries();
         for(EvalEntry entry:evalEntries) {
-            System.out.println(entry);
+            System.out.println(entry.getFeedback());
         }
     }
 }
