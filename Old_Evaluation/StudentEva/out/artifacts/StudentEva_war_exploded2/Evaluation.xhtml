@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+<h:head>
+   <title>Evaluation</title>
+</h:head>
+<h:body>
+   <h:form>
+   Wählen Sie einen Kurs aus.
+   <h:selectOneMenu value="#{evaluationController.kurs}" required="true" requiredMessage="Bitte wählen Sie einen Kurs aus">
+      <f:selectItem itemValue="Mathematik" itemLabel="Mathematik"/>
+      <f:selectItem itemValue="Deutsch" itemLabel="Deutsch"/>
+      <f:selectItem itemValue="Englisch" itemLabel="Englisch"/>
+   </h:selectOneMenu><br></br>
+
+   Wie sehr hat sich der Kurs für Sie gelohnt?
+   <h:selectOneRadio value="#{evaluationController.note}"
+                     required="true" requiredMessage="Bitte geben Sie dem Kurs eine Note">
+      <f:selectItem itemValue="1" itemLabel="Sehr gut"/>
+      <f:selectItem itemValue="2" itemLabel="Gut"/>
+      <f:selectItem itemValue="3" itemLabel="Befriedigend"/>
+      <f:selectItem itemValue="4" itemLabel="Genügend"/>
+      <f:selectItem itemValue="5" itemLabel="Nicht Genügend"/>
+   </h:selectOneRadio>
+
+
+   Auf welchen Computern und Plattformen haben Sie die Aufgaben gelöst?
+   <h:selectManyCheckbox value="#{evaluationController.plattformen}"
+                         required="true" requiredMessage="Bitte wählen Sie eine Plattform aus">
+      <f:selectItem itemValue="Windows" itemLabel="Windows"/>
+      <f:selectItem itemValue="Linux" itemLabel="Linux"/>
+      <f:selectItem itemValue="Android" itemLabel="Android"/>
+   </h:selectManyCheckbox>
+
+   Was soll Ihrer Meinung nach beibehalten werden?<br>
+   <h:inputTextarea value="#{evaluationController.feedback}"/>
+   </br>
+   <h:commandButton value="Absenden" action="#{evaluationController.submit}"></h:commandButton>
+   </h:form>
+</h:body>
+</html>
+

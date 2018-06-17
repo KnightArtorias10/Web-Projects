@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+<h:body>
+    <h:form>
+    Wählen Sie einen Kurs aus.
+    <h:selectOneMenu value="#{resultatController.kurs}" required="true" requiredMessage="Bitte wählen Sie einen Kurs aus">
+        <f:selectItem itemValue="Mathematik" itemLabel="Mathematik"/>
+        <f:selectItem itemValue="Deutsch" itemLabel="Deutsch"/>
+        <f:selectItem itemValue="Englisch" itemLabel="Englisch"/><br></br>
+        <h:commandButton value="Ansehen" action="#{resultatController.seeResults}"/>
+    </h:selectOneMenu><br></br>
+    </h:form>
+</h:body>
+</html>
