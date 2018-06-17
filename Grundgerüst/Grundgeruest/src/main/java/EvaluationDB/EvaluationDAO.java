@@ -2,7 +2,7 @@ package EvaluationDB;
 
 /**
  * Spezifisches DAO f�r die Entit�t City
- * erbt CRUD-Funktionalit�t vom Guestbook.EvaluationDB.BaseDAO
+ * erbt CRUD-Funktionalit�t vom EvaluationDB.EvaluationDB.BaseDAO
  * implementiert als Singleton
  *
  * @author sonja
@@ -24,7 +24,7 @@ public class EvaluationDAO extends BaseDAO<EvalEntry, String> {
     }
 
     /**
-     * stellt eine erweiterte Funktionalit�t gegen�ber dem Guestbook.EvaluationDB.BaseDAO dar
+     * stellt eine erweiterte Funktionalit�t gegen�ber dem EvaluationDB.EvaluationDB.BaseDAO dar
      * @param name
      * @return
      */

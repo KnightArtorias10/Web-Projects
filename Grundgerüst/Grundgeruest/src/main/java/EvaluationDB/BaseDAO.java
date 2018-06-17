@@ -12,7 +12,7 @@ import java.util.List;
 
 
 /**
- * Generisches Guestbook.EvaluationDB.BaseDAO mit CRUD-Funktionalit�t
+ * Generisches EvaluationDB.EvaluationDB.BaseDAO mit CRUD-Funktionalit�t
  * @author sonja
  *
  * @param <T> Klasse der zu persistierenden Entit�t
