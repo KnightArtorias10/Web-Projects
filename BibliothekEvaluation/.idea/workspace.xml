@@ -27,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.xhtml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.xhtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="222">
+              <caret line="41" column="7" lean-forward="true" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -39,34 +39,12 @@
       <file leaf-file-name="EvaluationBean.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Beans/EvaluationBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="69" column="1" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
+            <state relative-caret-position="181">
+              <caret line="70" column="18" selection-start-line="70" selection-start-column="18" selection-end-line="70" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#326#327#0" expanded="true" />
-                <element signature="e#353#354#0" expanded="true" />
-                <element signature="e#393#394#0" expanded="true" />
-                <element signature="e#425#426#0" expanded="true" />
-                <element signature="e#458#459#0" expanded="true" />
-                <element signature="e#487#488#0" expanded="true" />
-                <element signature="e#531#532#0" expanded="true" />
-                <element signature="e#567#568#0" expanded="true" />
-                <element signature="e#599#600#0" expanded="true" />
-                <element signature="e#627#628#0" expanded="true" />
-                <element signature="e#669#670#0" expanded="true" />
-                <element signature="e#703#704#0" expanded="true" />
-                <element signature="e#736#737#0" expanded="true" />
-                <element signature="e#765#766#0" expanded="true" />
-                <element signature="e#809#810#0" expanded="true" />
-                <element signature="e#845#846#0" expanded="true" />
-                <element signature="e#915#916#0" expanded="true" />
                 <element signature="e#946#947#0" expanded="true" />
-                <element signature="e#1000#1001#0" expanded="true" />
-                <element signature="e#1040#1041#0" expanded="true" />
-                <element signature="e#1033#1034#0" expanded="true" />
-                <element signature="e#1063#1064#0" expanded="true" />
-                <element signature="e#1109#1110#0" expanded="true" />
-                <element signature="e#1147#1148#0" expanded="true" />
+                <element signature="e#977#978#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -84,8 +62,8 @@
       <file leaf-file-name="DataBase_Manager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/EvaluationDB/DataBase_Manager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+            <state relative-caret-position="117">
+              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,40 +71,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EvalEntry.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="EvalEntry.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/EvaluationDB/EvalEntry.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="85" column="11" selection-start-line="85" selection-start-column="11" selection-end-line="85" selection-end-column="11" />
+            <state relative-caret-position="308">
+              <caret line="76" column="20" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="20" />
               <folding>
                 <element signature="e#692#693#0" expanded="true" />
                 <element signature="e#718#719#0" expanded="true" />
                 <element signature="e#751#752#0" expanded="true" />
                 <element signature="e#775#776#0" expanded="true" />
-                <element signature="e#832#833#0" expanded="true" />
-                <element signature="e#859#860#0" expanded="true" />
                 <element signature="e#898#899#0" expanded="true" />
                 <element signature="e#930#931#0" expanded="true" />
-                <element signature="e#963#964#0" expanded="true" />
-                <element signature="e#992#993#0" expanded="true" />
-                <element signature="e#1036#1037#0" expanded="true" />
-                <element signature="e#1072#1073#0" expanded="true" />
-                <element signature="e#1104#1105#0" expanded="true" />
-                <element signature="e#1132#1133#0" expanded="true" />
-                <element signature="e#1174#1175#0" expanded="true" />
-                <element signature="e#1208#1209#0" expanded="true" />
-                <element signature="e#1241#1242#0" expanded="true" />
-                <element signature="e#1270#1271#0" expanded="true" />
-                <element signature="e#1314#1315#0" expanded="true" />
+                <element signature="e#1321#1322#0" expanded="true" />
                 <element signature="e#1350#1351#0" expanded="true" />
-                <element signature="e#1385#1386#0" expanded="true" />
-                <element signature="e#1416#1417#0" expanded="true" />
-                <element signature="e#1464#1465#0" expanded="true" />
-                <element signature="e#1504#1505#0" expanded="true" />
-                <element signature="e#1538#1539#0" expanded="true" />
-                <element signature="e#1568#1569#0" expanded="true" />
-                <element signature="e#1614#1615#0" expanded="true" />
-                <element signature="e#1652#1653#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -135,7 +93,7 @@
       <file leaf-file-name="EvaluationDAO.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/EvaluationDB/EvaluationDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-55">
+            <state relative-caret-position="170">
               <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
@@ -153,7 +111,7 @@
       <file leaf-file-name="BaseDAO.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/EvaluationDB/BaseDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-204">
+            <state relative-caret-position="204">
               <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
             </state>
           </provider>
@@ -162,7 +120,7 @@
       <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Test/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
+            <state relative-caret-position="170">
               <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -285,16 +243,16 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="714" />
     <option name="y" value="132" />
-    <option name="width" value="1079" />
-    <option name="height" value="587" />
+    <option name="width" value="1080" />
+    <option name="height" value="588" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -644,11 +602,12 @@
       <workItem from="1529244435647" duration="402000" />
       <workItem from="1529308381022" duration="1492000" />
       <workItem from="1529330426189" duration="5302000" />
+      <workItem from="1529337425855" duration="756000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52117000" />
+    <option name="totallyTimeSpent" value="52873000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
@@ -657,13 +616,13 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.2529274" side_tool="true" weight="0.32663316" />
       <window_info anchor="bottom" id="Application Servers" order="7" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32955465" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="CDI" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="JSF" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49882904" weight="0.39865997" />
@@ -683,12 +642,12 @@
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Sequence" order="7" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49960968" weight="0.32561985" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49960968" weight="0.32561985" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -799,30 +758,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/Evaluation.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Beans/EvaluationBean.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Evaluation.xhtml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Beans/EvaluationBean.kt" />
     <entry file="file://$PROJECT_DIR$/src/main/java/EvaluationDB/EvaluationDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-55">
+        <state relative-caret-position="170">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Test/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
+        <state relative-caret-position="170">
           <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -830,64 +777,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EvaluationDB/EvalEntry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="85" column="11" selection-start-line="85" selection-start-column="11" selection-end-line="85" selection-end-column="11" />
-          <folding>
-            <element signature="e#692#693#0" expanded="true" />
-            <element signature="e#718#719#0" expanded="true" />
-            <element signature="e#751#752#0" expanded="true" />
-            <element signature="e#775#776#0" expanded="true" />
-            <element signature="e#832#833#0" expanded="true" />
-            <element signature="e#859#860#0" expanded="true" />
-            <element signature="e#898#899#0" expanded="true" />
-            <element signature="e#930#931#0" expanded="true" />
-            <element signature="e#963#964#0" expanded="true" />
-            <element signature="e#992#993#0" expanded="true" />
-            <element signature="e#1036#1037#0" expanded="true" />
-            <element signature="e#1072#1073#0" expanded="true" />
-            <element signature="e#1104#1105#0" expanded="true" />
-            <element signature="e#1132#1133#0" expanded="true" />
-            <element signature="e#1174#1175#0" expanded="true" />
-            <element signature="e#1208#1209#0" expanded="true" />
-            <element signature="e#1241#1242#0" expanded="true" />
-            <element signature="e#1270#1271#0" expanded="true" />
-            <element signature="e#1314#1315#0" expanded="true" />
-            <element signature="e#1350#1351#0" expanded="true" />
-            <element signature="e#1385#1386#0" expanded="true" />
-            <element signature="e#1416#1417#0" expanded="true" />
-            <element signature="e#1464#1465#0" expanded="true" />
-            <element signature="e#1504#1505#0" expanded="true" />
-            <element signature="e#1538#1539#0" expanded="true" />
-            <element signature="e#1568#1569#0" expanded="true" />
-            <element signature="e#1614#1615#0" expanded="true" />
-            <element signature="e#1652#1653#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/EvaluationDB/BaseDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204">
+        <state relative-caret-position="204">
           <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EvaluationDB/DatabaseFacade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EvaluationDB/DataBase_Manager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -898,44 +791,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="41" column="7" lean-forward="true" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/EvaluationDB/DatabaseFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Beans/EvaluationBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="69" column="1" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
+        <state relative-caret-position="181">
+          <caret line="70" column="18" selection-start-line="70" selection-start-column="18" selection-end-line="70" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#458#459#0" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-            <element signature="e#531#532#0" expanded="true" />
-            <element signature="e#567#568#0" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
-            <element signature="e#627#628#0" expanded="true" />
-            <element signature="e#669#670#0" expanded="true" />
-            <element signature="e#703#704#0" expanded="true" />
-            <element signature="e#736#737#0" expanded="true" />
-            <element signature="e#765#766#0" expanded="true" />
-            <element signature="e#809#810#0" expanded="true" />
-            <element signature="e#845#846#0" expanded="true" />
-            <element signature="e#915#916#0" expanded="true" />
             <element signature="e#946#947#0" expanded="true" />
-            <element signature="e#1000#1001#0" expanded="true" />
-            <element signature="e#1040#1041#0" expanded="true" />
-            <element signature="e#1033#1034#0" expanded="true" />
-            <element signature="e#1063#1064#0" expanded="true" />
-            <element signature="e#1109#1110#0" expanded="true" />
-            <element signature="e#1147#1148#0" expanded="true" />
+            <element signature="e#977#978#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.xhtml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/EvaluationDB/DataBase_Manager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="117">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/EvaluationDB/EvalEntry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="76" column="20" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="20" />
+          <folding>
+            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#718#719#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#775#776#0" expanded="true" />
+            <element signature="e#898#899#0" expanded="true" />
+            <element signature="e#930#931#0" expanded="true" />
+            <element signature="e#1321#1322#0" expanded="true" />
+            <element signature="e#1350#1351#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

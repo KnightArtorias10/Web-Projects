@@ -5,7 +5,7 @@
       xmlns:h="http://xmlns.jcp.org/jsf/html"
       xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
       xmlns:f="http://xmlns.jcp.org/jsf/core">
-<f:view>
+<h:form>
   <h:panelGrid>
   <h:outputLabel value="Name:"/><h:inputText value="#{evaluationBean.name}"/><br></br>
 
@@ -38,5 +38,5 @@
 
     <h:commandButton action="#{evaluationBean.writeToDB}" value="Absenden"/>
   </h:panelGrid>
-</f:view>
+</h:form>
 </html>
