@@ -83,6 +83,7 @@ public class EvalEntry {
         this.audience = audience;
     }
 
+    @Column(name="comment")
     public String getComment() {
         return comment;
     }
