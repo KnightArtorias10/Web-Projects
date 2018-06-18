@@ -6,6 +6,15 @@
       xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
       xmlns:f="http://xmlns.jcp.org/jsf/core">
 <f:view>
-  <h:outputLabel value="Hallo"/>
+  <h:outputLabel value="Name:"/><h:inputText value=""/>
+
+  <h:outputLabel value="Medium:"/>
+  <h:selectOneMenu value="">
+    <f:selectItem itemLabel="Buch" value="Buch"/>
+    <f:selectItem itemLabel="Film" value="Film"/>
+    <f:selectItem itemLabel="Spiel" value="Spiel"/>
+  </h:selectOneMenu>
+
+  <h:outputLabel value="Titel:"/> <h:inputText value=""/>
 </f:view>
 </html>
