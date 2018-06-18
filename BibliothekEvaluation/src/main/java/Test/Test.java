@@ -12,6 +12,11 @@ public class Test {
         List<EvalEntry> evalEntries = dbf.listAllEntries();
         for(EvalEntry entry:evalEntries) {
             System.out.println(entry.getName());
+            System.out.println(entry.getMedium());
+            System.out.println(entry.getRating());
+            System.out.println(entry.getTitle());
+            System.out.println(entry.getAudience());
+            System.out.println(entry.getComment());
         }
     }
 }

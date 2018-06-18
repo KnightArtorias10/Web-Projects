@@ -11,7 +11,7 @@ import static javax.persistence.GenerationType.IDENTITY;
  *
  */
 @Entity
-@Table (name="EVALUATION")
+@Table (name="EVALUATIONENTRY")
 public class EvalEntry {
 
     private int _id;
