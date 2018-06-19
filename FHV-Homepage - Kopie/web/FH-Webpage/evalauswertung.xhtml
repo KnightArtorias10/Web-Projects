@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+<h:head>
+    <title>Evaluationsauswertung</title>
+</h:head>
+<f:view>
+    <h:form>
+    Wähle den Kurs aus von dem Sie die Ergebnisse wissen wollen:
+    <br/>
+    <h:selectOneMenu value="#{showEvaluationResultController.selectedCourse}"
+                     required="true"
+                     requiredMessage="Bitte waehle einen Kurs aus">
+        <f:selectItem itemValue="" itemLabel="--waehle einen Kurs--" noSelectionOption="true"/>
+        <f:selectItems value="#{showEvaluationResultController.courseOptions}" action=""/>
+    </h:selectOneMenu>
+        <br/>
+        <br/>
+        <h:commandButton action="#{showEvaluationResultController.showResult}" value="Absenden"/>
+    </h:form>
+</f:view>
+</html>
