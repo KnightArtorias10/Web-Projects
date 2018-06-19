@@ -29,9 +29,9 @@
 
     <h:outputLabel value="Empfohlene Altersgruppen"/>
     <h:selectManyCheckbox value="#{evaluationBean.audience}">
-      <f:selectItem itemValue="1" itemLabel="Kinder"/>
-      <f:selectItem itemValue="2" itemLabel="Jugendliche"/>
-      <f:selectItem itemValue="3" itemLabel="Erwachsene"/>
+      <f:selectItem itemValue="Kinder" itemLabel="Kinder"/>
+      <f:selectItem itemValue="Jugendliche" itemLabel="Jugendliche"/>
+      <f:selectItem itemValue="Erwachsene" itemLabel="Erwachsene"/>
     </h:selectManyCheckbox>
 
     <h:outputLabel value="Kommentar"/><h:inputTextarea value="#{evaluationBean.comment}"/><br></br>
