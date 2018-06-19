@@ -5,21 +5,25 @@
       xmlns:h="http://xmlns.jcp.org/jsf/html"
       xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
       xmlns:f="http://xmlns.jcp.org/jsf/core">
+<style type="text/css"></style>
 <h:form>
+  <h:messages styleClass="error"/>
+
   <h:panelGrid>
-  <h:outputLabel value="Name:"/><h:inputText value="#{evaluationBean.name}" required="true" validatorMessage="Bitte geben Sie Ihren Namen ein"/><br></br>
+  <h:outputLabel value="Name:"/><h:inputText value="#{evaluationBean.name}" required="true" requiredMessage="Bitte geben Sie Ihren Namen ein"/><br></br>
 
   <h:outputLabel value="Medium:"/>
-  <h:selectOneMenu  value="#{evaluationBean.medium}">
+  <h:selectOneMenu  value="#{evaluationBean.medium}" required="true" requiredMessage="Bitte Wählen Sie ein Medium aus">
+    <f:selectItem itemLabel="--wähle--" itemValue=""/>
     <f:selectItem itemLabel="Buch" itemValue="Buch"/>
     <f:selectItem itemLabel="Film" itemValue="Film"/>
     <f:selectItem itemLabel="Spiel" itemValue="Spiel"/>
   </h:selectOneMenu><br></br>
 
-  <h:outputLabel value="Titel:"/> <h:inputText value="#{evaluationBean.title}"/>
+  <h:outputLabel value="Titel:"/> <h:inputText value="#{evaluationBean.title}" required="true" requiredMessage="Bitte geben Sie den Titel des zu bewertenden Mediums ein"/>
 
     <h:outputLabel value="Bewertung"/>
-    <h:selectOneRadio value="#{evaluationBean.rating}">
+    <h:selectOneRadio value="#{evaluationBean.rating}" required="true" requiredMessage="Bitte bewerten Sie das Medium">
       <f:selectItem itemValue="1" itemLabel="Sehr gut"/>
       <f:selectItem itemValue="2" itemLabel="Gut"/>
       <f:selectItem itemValue="3" itemLabel="Befriedigend"/>
@@ -28,7 +32,7 @@
     </h:selectOneRadio><br></br>
 
     <h:outputLabel value="Empfohlene Altersgruppen"/>
-    <h:selectManyCheckbox value="#{evaluationBean.audience}">
+    <h:selectManyCheckbox value="#{evaluationBean.audience}" required="true" requiredMessage="Bitte Wählen Sie mindestens eine Altersgruppe aus">
       <f:selectItem itemValue="Kinder" itemLabel="Kinder"/>
       <f:selectItem itemValue="Jugendliche" itemLabel="Jugendliche"/>
       <f:selectItem itemValue="Erwachsene" itemLabel="Erwachsene"/>

@@ -7,12 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8742668f-494b-4f33-85fb-9dd918dc07d4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Beans/IndexBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/Answers.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/evaluation.xhtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/index.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/evaluation.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/evaluation.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/evaluation.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/web/evaluation.xhtml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,8 +25,8 @@
       <file leaf-file-name="evaluation.xhtml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/evaluation.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="110" selection-start-line="9" selection-start-column="110" selection-end-line="9" selection-end-column="110" />
+            <state relative-caret-position="272">
+              <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -634,7 +631,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56498000" />
+    <option name="totallyTimeSpent" value="57300000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
@@ -914,8 +911,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/evaluation.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="110" selection-start-line="9" selection-start-column="110" selection-end-line="9" selection-end-column="110" />
+        <state relative-caret-position="272">
+          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
         </state>
       </provider>
     </entry>
