@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+<title>
+   Evaluation
+</title>
+<style>
+   .error {color:red}
+</style>
+<h:head>
+</h:head>
+
+<h:body>
+   <h:form>
+      <h:messages styleClass="error" />
+      Wähle den zu evaluierenden Kurs aus:
+      <br/>
+      <h:selectOneMenu value="#{saveEvaluationController.course}"
+      required="true"
+      requiredMessage="Bitte waehle einen Kurs aus">
+         <f:selectItem itemValue="" itemLabel="--waehle einen Kurs--" noSelectionOption="true"/>
+         <f:selectItems value="#{saveEvaluationController.courseOptions}"/>
+      </h:selectOneMenu>
+      <br/><br/>
+      Wenn Sie sich auf den Inhalt konzentrieren, wie lohnend war der Besuch der Lehrveranstaltung bisher?
+      <br/>
+      <h:selectOneRadio value="#{saveEvaluationController.valuable}"
+      required="true"
+      requiredMessage="Bitte beurteile wie lohnend der Besuch der Lehrveranstaldung war">
+         <f:selectItems value="#{saveEvaluationController.valuableOptions}"/>
+      </h:selectOneRadio>
+      <br/><br/>
+      Auf welchen Computer-Plattformen haben Sie die Übungsaufgaben gelöst?
+      <br/>
+      <h:selectManyCheckbox value="#{saveEvaluationController.usedPlattforms}"
+      required="true"
+      requiredMessage="Bitte waehle mindestens eine Plattform aus">
+         <f:selectItems value="#{saveEvaluationController.usedPlattformsOptions}"/>
+      </h:selectManyCheckbox>
+      <br/><br/>
+      Was sollte Ihrer Meinung nach beibehalten werden?
+      <br/>
+      <h:inputTextarea value="#{saveEvaluationController.keepSame}"/>
+      <br/><br/>
+      Was sollte Ihrer Meinung nach verändert werden?
+      <br/>
+      <h:inputText value="#{saveEvaluationController.change}"
+      required="true"
+      requiredMessage="Bitte geben Sie etwas an das veraendert werden soll"/>
+      <br/><br/>
+      <h:commandButton action="#{saveEvaluationController.writeToDB}" value="Absenden"/>
+   </h:form>
+</h:body>
+</html>
