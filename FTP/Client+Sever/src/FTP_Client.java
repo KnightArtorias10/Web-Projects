@@ -1,12 +1,13 @@
 import java.io.*;
 import java.net.InetAddress;
 import java.net.Socket;
-import java.net.UnknownHostException;
 import java.util.Scanner;
 
 public class FTP_Client {
-    BufferedReader in;
-    BufferedWriter out;
+    InputStream in;
+    OutputStream out;
+    BufferedReader reader;
+    BufferedWriter writer;
     Socket s;
     static int port = 21;
 
@@ -33,9 +34,9 @@ public class FTP_Client {
             s = new Socket(address, port);
 
         System.out.println("Erfolgreich verbunden mit " +address.getHostName());
-            out = new BufferedWriter(new OutputStreamWriter(s.getOutputStream()));
+            writer = new BufferedWriter(new OutputStreamWriter(s.getOutputStream()));
             InputStreamReader inreader = new InputStreamReader(s.getInputStream());
-            in = new BufferedReader(inreader);
+            reader = new BufferedReader(inreader);
     }
 
     /**
@@ -45,8 +46,8 @@ public class FTP_Client {
         send("quit");
 
         try {
-            in.close();
-            out.close();
+            reader.close();
+            writer.close();
             s.close();
         } catch (IOException e) {
             e.printStackTrace();
@@ -61,8 +62,8 @@ public class FTP_Client {
         send("dir");
         String response;
 
-        while ((response = in.readLine()) != null) {
-            System.out.println(in.readLine());
+        while ((response = reader.readLine()) != null) {
+            System.out.println(reader.readLine());
         }
     }
 
@@ -72,6 +73,19 @@ public class FTP_Client {
 
     public void get(String fileName) throws IOException {
         send("get " +fileName);
+        String remoteFile = fileName;
+        File downloadFile = new File("D:/Downloads/" +fileName);
+        OutputStream fileout = new BufferedOutputStream(new FileOutputStream(downloadFile));
+        InputStream inputStream = s.getInputStream();
+        byte[] bytesArray = new byte[4096];
+        int bytesRead = -1;
+        while ((bytesRead = inputStream.read(bytesArray)) != -1) {
+            fileout.write(bytesArray, 0, bytesRead);
+        }
+
+            System.out.println("File " +fileName +" has been downloaded successfully.");
+        fileout.close();
+        inputStream.close();
     }
 
     /**
@@ -80,10 +94,10 @@ public class FTP_Client {
      */
     public void send(String command) throws IOException {
         for(int i = 0; i < command.length(); i++) {
-            out.write(command.charAt(i)); //The command char for char
+            writer.write(command.charAt(i)); //The command char for char
         }
-        out.write(System.lineSeparator()); //Enter
-        out.flush(); //Refresh the writer
+        writer.write(System.lineSeparator()); //Enter
+        writer.flush(); //Refresh the writer
     }
 
     public void control(String command, String str) throws Exception {
@@ -98,7 +112,7 @@ public class FTP_Client {
 
     public void control(String command) throws Exception {
         switch(command) {
-         //   case "connect": System.out.println("Error: Please enter an URL to connect with"); break;
+         //   case "connect": System.writer.println("Error: Please enter an URL to connect with"); break;
             case "disconnect": disconnect(); break;
             case "dir": dir(); break;
             case "cd": System.out.println("Error: Please enter the desired direction"); break;

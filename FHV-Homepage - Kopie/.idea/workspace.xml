@@ -230,10 +230,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-339" />
-    <option name="y" value="102" />
-    <option name="width" value="1614" />
-    <option name="height" value="876" />
+    <option name="x" value="-342" />
+    <option name="y" value="99" />
+    <option name="width" value="1617" />
+    <option name="height" value="879" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -943,12 +943,12 @@
       <workItem from="1529243011836" duration="153000" />
       <workItem from="1529244455890" duration="6522000" />
       <workItem from="1529339700350" duration="4317000" />
-      <workItem from="1529489569740" duration="5577000" />
+      <workItem from="1529489569740" duration="5628000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="227126000" />
+    <option name="totallyTimeSpent" value="227177000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
