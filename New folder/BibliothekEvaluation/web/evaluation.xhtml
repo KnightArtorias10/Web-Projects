@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+<style type="text/css">
+  .error {color:red}
+</style>
+<h:form>
+  <h:messages styleClass="error"/>
+
+  <h:panelGrid>
+  <h:outputLabel value="Name:"/><h:inputText value="#{evaluationBean.name}" required="true" requiredMessage="Bitte geben Sie Ihren Namen ein"/><br></br>
+
+  <h:outputLabel value="Medium:"/>
+  <h:selectOneMenu  value="#{evaluationBean.medium}" required="true" requiredMessage="Bitte Wählen Sie ein Medium aus">
+    <f:selectItem itemLabel="--wähle--" itemValue=""/>
+    <f:selectItem itemLabel="Buch" itemValue="Buch"/>
+    <f:selectItem itemLabel="Film" itemValue="Film"/>
+    <f:selectItem itemLabel="Spiel" itemValue="Spiel"/>
+  </h:selectOneMenu><br></br>
+
+  <h:outputLabel value="Titel:"/> <h:inputText value="#{evaluationBean.title}" required="true" requiredMessage="Bitte geben Sie den Titel des zu bewertenden Mediums ein"/>
+
+    <h:outputLabel value="Bewertung"/>
+    <h:selectOneRadio value="#{evaluationBean.rating}" required="true" requiredMessage="Bitte bewerten Sie das Medium">
+      <f:selectItem itemValue="1" itemLabel="Sehr gut"/>
+      <f:selectItem itemValue="2" itemLabel="Gut"/>
+      <f:selectItem itemValue="3" itemLabel="Befriedigend"/>
+      <f:selectItem itemValue="4" itemLabel="Genügend"/>
+      <f:selectItem itemValue="5" itemLabel="Nicht genügend"/>
+    </h:selectOneRadio><br></br>
+
+    <h:outputLabel value="Empfohlene Altersgruppen"/>
+    <h:selectManyCheckbox value="#{evaluationBean.audience}" required="true" requiredMessage="Bitte Wählen Sie mindestens eine Altersgruppe aus">
+      <f:selectItem itemValue="Kinder" itemLabel="Kinder"/>
+      <f:selectItem itemValue="Jugendliche" itemLabel="Jugendliche"/>
+      <f:selectItem itemValue="Erwachsene" itemLabel="Erwachsene"/>
+    </h:selectManyCheckbox>
+
+    <h:outputLabel value="Kommentar"/><h:inputTextarea value="#{evaluationBean.comment}"/><br></br>
+
+    <h:commandButton action="#{evaluationBean.writeToDB}" value="Absenden"/>
+  </h:panelGrid>
+</h:form>
+</html>
