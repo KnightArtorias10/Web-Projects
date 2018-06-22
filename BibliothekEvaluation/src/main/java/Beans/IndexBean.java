@@ -14,6 +14,6 @@ public class IndexBean {
     }
 
     public String redirectToAnswers(){
-        return "Answers";
+        return "Result";
     }
 }
