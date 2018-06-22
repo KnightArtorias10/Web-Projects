@@ -1,3 +1,6 @@
+import sun.net.ftp.FtpClient;
+import sun.net.ftp.FtpProtocolException;
+
 import java.io.*;
 import java.net.InetAddress;
 import java.net.Socket;
@@ -59,7 +62,7 @@ public class FTP_Client {
      * Prints the current working direction
      */
     public void dir() throws IOException {
-        send("dir");
+        send("PWD" +"\r\n");
         String response;
 
         while ((response = reader.readLine()) != null) {
@@ -68,11 +71,11 @@ public class FTP_Client {
     }
 
     public void cd(String direction) throws IOException {
-        send("cd " +direction);
+        send("cd " +direction +"\r\n");
     }
 
     public void get(String fileName) throws IOException {
-        send("get " +fileName);
+        send("get " +fileName +"\r\n");
         String remoteFile = fileName;
         File downloadFile = new File("D:/Downloads/" +fileName);
         OutputStream fileout = new BufferedOutputStream(new FileOutputStream(downloadFile));
