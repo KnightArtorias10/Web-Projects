@@ -6,16 +6,18 @@
       xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
       xmlns:f="http://xmlns.jcp.org/jsf/core">
 <f:view>
-    <h:dataTable value="#{resultController.commentList}" var="commentList">
+
+    <h:dataTable value="#{resultController.evalList}" var="eval" border="2">
+        <h:column>
+            <f:facet name="header">Name:</f:facet>
+            #{eval.name}
+        </h:column>
         <h:column>
             <f:facet name="header">Kommentar:</f:facet>
-            <br/><br/>
-            <f:verbatim><hr/></f:verbatim>
-            ${commentList}
-            <f:verbatim><hr/></f:verbatim>
+            #{eval.comment}
         </h:column>
     </h:dataTable>
-    <br/><br/><br/><br/>
+    <br></br><br></br>
 
     Durchschnittsbewertung:<br/><br/>
     #{resultController.averageRating}

@@ -1,11 +1,15 @@
 package Beans;
 
+import EvaluationDB.EvalEntry;
+import Users.UserEntry;
+
 import javax.faces.bean.ManagedBean;
 import java.util.LinkedList;
 import java.util.List;
 
 @ManagedBean
 public class resultController {
+    private List<EvalEntry> evalList = new LinkedList<EvalEntry>();
     private List<String> commentList = new LinkedList<String>();
     private String selectedMedium;
     private double averageRating = 0;
@@ -16,10 +20,11 @@ public class resultController {
 
     public String showResults() {
         EntryReader reader = new EntryReader();
-        averageRating = reader.readFromDB(selectedMedium, commentList);
+        averageRating = reader.readFromDB(selectedMedium, evalList);
         return "ShowResults";
     }
 
+    public List<EvalEntry> getEvalList() { return evalList; }
     public List<String> getCommentList() {
         return commentList;
     }
