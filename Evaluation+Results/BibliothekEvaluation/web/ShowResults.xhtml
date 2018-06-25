@@ -13,13 +13,14 @@
             #{eval.name}
         </h:column>
         <h:column>
+            <f:facet name="header">Titel des Mediums:</f:facet>
+            #{eval.title}
+        </h:column>
+        <h:column>
             <f:facet name="header">Kommentar:</f:facet>
             #{eval.comment}
         </h:column>
     </h:dataTable>
     <br></br><br></br>
-
-    Durchschnittsbewertung:<br/><br/>
-    #{resultController.averageRating}
 </f:view>
 </html>
