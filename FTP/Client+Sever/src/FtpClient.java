@@ -22,11 +22,11 @@ public class FtpClient {
 
     }
 
-    public void printCurrentDirection() {
-        for() {
+  //  public void printCurrentDirection() {
+    //    for() {
 
-        }
-    }
+      //  }
+    //}
 
     //boolean
     public void changeDirection(String direction) {

@@ -40,6 +40,8 @@ public class FTP_Client {
             writer = new BufferedWriter(new OutputStreamWriter(s.getOutputStream()));
             InputStreamReader inreader = new InputStreamReader(s.getInputStream());
             reader = new BufferedReader(inreader);
+            send("anonymous");
+            send("123");
     }
 
     /**
