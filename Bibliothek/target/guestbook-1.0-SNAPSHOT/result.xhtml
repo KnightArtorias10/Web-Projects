@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+<h:head>
+    <title>Resultat</title>
+</h:head>
+<h:body>
+    <h:dataTable value="#{showEvaluationResultController.keepSameList}" var="keepSameList">
+        <h:column>
+            <f:facet name="header">Was sollte ihrer Meinung nach beibehalten werden?</f:facet>
+            <br/><br/>
+            <f:verbatim><hr/></f:verbatim>
+            ${keepSameList}
+            <f:verbatim><hr/></f:verbatim>
+        </h:column>
+    </h:dataTable>
+    <br/><br/><br/><br/>
+
+    Durchschnittwert der Frage: Wenn Sie sich auf den Inhalt konzentrieren,<br/>
+    wie lohnend war der Besuch der Lehrveranstaltung bisher?<br/><br/>
+    #{showEvaluationResultController.averageValuable}
+</h:body>
+</html>
