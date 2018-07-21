@@ -1,4 +1,4 @@
-package GuestbookDB;
+package GuestbookFinished;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

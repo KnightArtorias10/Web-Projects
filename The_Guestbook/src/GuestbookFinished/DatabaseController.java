@@ -1,4 +1,7 @@
-package GuestbookDB;
+package GuestbookFinished;
+
+import GuestbookFinished.DatabaseFacade;
+import GuestbookFinished.GuestbookEntry;
 
 public class DatabaseController {
 

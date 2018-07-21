@@ -1,4 +1,4 @@
-package GuestbookDB;
+package GuestbookFinished;
 
 import javax.persistence.*;
 

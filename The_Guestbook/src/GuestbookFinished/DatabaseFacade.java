@@ -1,4 +1,4 @@
-package GuestbookDB;
+package GuestbookFinished;
 
 
 import java.util.List;

@@ -1,4 +1,4 @@
-<%@ page import="GuestbookDB.GuestbookEntry" %>
+<%@ page import="GuestbookFinished.GuestbookEntry" %>
 <%@ page import="java.util.List" %>
 <%@ page import="java.util.ListIterator" %><%--
   Created by IntelliJ IDEA.
@@ -10,7 +10,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>$Title$</title>
+    <title>Guestbook</title>
 
     <script type="text/javascript">
       function validate() {

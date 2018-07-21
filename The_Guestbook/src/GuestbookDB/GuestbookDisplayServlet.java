@@ -1,5 +1,8 @@
 package GuestbookDB;
 
+import GuestbookFinished.DatabaseFacade;
+import GuestbookFinished.GuestbookEntry;
+
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -21,7 +24,7 @@ public class GuestbookDisplayServlet extends HttpServlet {
         request.setAttribute("guestbookEntries", guestbookEntries);
 
         //Servlet JSP communication
-        RequestDispatcher reqDispatcher = getServletConfig().getServletContext().getRequestDispatcher("/Guestbook.jsp");
+        RequestDispatcher reqDispatcher = getServletConfig().getServletContext().getRequestDispatcher("/index.jsp");
         reqDispatcher.forward(request, response);
     }
 }

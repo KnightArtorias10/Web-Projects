@@ -1,4 +1,4 @@
-package GuestbookDB;
+package GuestbookFinished;
 
 /**
  * Spezifisches DAO f�r die Entit�t City

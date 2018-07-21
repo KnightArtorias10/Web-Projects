@@ -1,13 +1,14 @@
 package GuestbookDB;
 
+import GuestbookFinished.DatabaseFacade;
+import GuestbookFinished.GuestbookEntry;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 
 @WebServlet(name = "Guestbook.EntryServlet", urlPatterns = {"/Entry"})
 public class EntryServlet extends HttpServlet {
