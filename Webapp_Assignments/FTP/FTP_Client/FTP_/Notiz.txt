@@ -1,0 +1,1 @@
+Da der Username und das Passwort statisch sind, müssen diese vor dem Starten des Programms in der Klasse manuell eingegeben werden.
