@@ -2,67 +2,122 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="Grundgeruest:war" />
-<<<<<<< HEAD
-      <artifact name="Grundgeruest:war exploded" />
-=======
->>>>>>> d4f908037a3abf16b973647182c0df15f746586a
+      <artifact name="unnamed" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8742668f-494b-4f33-85fb-9dd918dc07d4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../../GRUNDGERÜST_/Grundgeruest/.idea/artifacts/Grundgeruest_war.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GRUNDGERÜST_/Grundgeruest/.idea/artifacts/Grundgeruest_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GRUNDGERÜST_/Grundgeruest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../GRUNDGERÜST_/Grundgeruest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GRUNDGERÜST_/Grundgeruest/out/artifacts/Grundgeruest_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../../GRUNDGERÜST_/Grundgeruest/out/artifacts/Grundgeruest_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GRUNDGERÜST_/Grundgeruest/target/endorsed/javaee-endorsed-api-7.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GRUNDGERÜST_/Grundgeruest/target/student-1.0-SNAPSHOT/Books.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GRUNDGERÜST_/Grundgeruest/target/student-1.0-SNAPSHOT/Evaluation.xhtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GRUNDGERÜST_/Grundgeruest/target/student-1.0-SNAPSHOT/Films.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GRUNDGERÜST_/Grundgeruest/target/student-1.0-SNAPSHOT/Games.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GRUNDGERÜST_/Grundgeruest/target/student-1.0-SNAPSHOT/Guestbook.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GRUNDGERÜST_/Grundgeruest/target/student-1.0-SNAPSHOT/History.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GRUNDGERÜST_/Grundgeruest/target/student-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GRUNDGERÜST_/Grundgeruest/target/student-1.0-SNAPSHOT/Mashup.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GRUNDGERÜST_/Grundgeruest/target/student-1.0-SNAPSHOT/Media.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GRUNDGERÜST_/Grundgeruest/target/student-1.0-SNAPSHOT/Registration.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GRUNDGERÜST_/Grundgeruest/target/student-1.0-SNAPSHOT/Result.xhtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GRUNDGERÜST_/Grundgeruest/target/student-1.0-SNAPSHOT/ShowResults.xhtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GRUNDGERÜST_/Grundgeruest/target/student-1.0-SNAPSHOT/Success.xhtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GRUNDGERÜST_/Grundgeruest/target/student-1.0-SNAPSHOT/Test.xhtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GRUNDGERÜST_/Grundgeruest/target/student-1.0-SNAPSHOT/WEB-INF/classes/EvaluationDB/BaseDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GRUNDGERÜST_/Grundgeruest/target/student-1.0-SNAPSHOT/WEB-INF/classes/EvaluationDB/DatabaseFacade.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GRUNDGERÜST_/Grundgeruest/target/student-1.0-SNAPSHOT/WEB-INF/classes/EvaluationDB/EvalEntry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GRUNDGERÜST_/Grundgeruest/target/student-1.0-SNAPSHOT/WEB-INF/classes/EvaluationDB/EvaluationDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GRUNDGERÜST_/Grundgeruest/target/student-1.0-SNAPSHOT/WEB-INF/classes/Test/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GRUNDGERÜST_/Grundgeruest/target/student-1.0-SNAPSHOT/WEB-INF/classes/hibernate.cfg.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GRUNDGERÜST_/Grundgeruest/target/student-1.0-SNAPSHOT/WEB-INF/faces-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GRUNDGERÜST_/Grundgeruest/target/student-1.0-SNAPSHOT/WEB-INF/lib/antlr-2.7.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GRUNDGERÜST_/Grundgeruest/target/student-1.0-SNAPSHOT/WEB-INF/lib/dom4j-1.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GRUNDGERÜST_/Grundgeruest/target/student-1.0-SNAPSHOT/WEB-INF/lib/h2-1.4.196.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GRUNDGERÜST_/Grundgeruest/target/student-1.0-SNAPSHOT/WEB-INF/lib/hibernate-commons-annotations-4.0.5.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GRUNDGERÜST_/Grundgeruest/target/student-1.0-SNAPSHOT/WEB-INF/lib/hibernate-core-4.3.11.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GRUNDGERÜST_/Grundgeruest/target/student-1.0-SNAPSHOT/WEB-INF/lib/hibernate-entitymanager-4.3.11.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GRUNDGERÜST_/Grundgeruest/target/student-1.0-SNAPSHOT/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GRUNDGERÜST_/Grundgeruest/target/student-1.0-SNAPSHOT/WEB-INF/lib/jandex-1.1.0.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GRUNDGERÜST_/Grundgeruest/target/student-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.18.1-GA.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GRUNDGERÜST_/Grundgeruest/target/student-1.0-SNAPSHOT/WEB-INF/lib/jboss-logging-3.1.3.GA.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GRUNDGERÜST_/Grundgeruest/target/student-1.0-SNAPSHOT/WEB-INF/lib/jboss-logging-annotations-1.2.0.Beta1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GRUNDGERÜST_/Grundgeruest/target/student-1.0-SNAPSHOT/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.0.0.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GRUNDGERÜST_/Grundgeruest/target/student-1.0-SNAPSHOT/WEB-INF/lib/xml-apis-1.0.b2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GRUNDGERÜST_/Grundgeruest/target/student-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GRUNDGERÜST_/Grundgeruest/target/student-1.0-SNAPSHOT/bibliothekHeader.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GRUNDGERÜST_/Grundgeruest/target/student-1.0-SNAPSHOT/bibliothekLayout.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GRUNDGERÜST_/Grundgeruest/target/student-1.0-SNAPSHOT/emailicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GRUNDGERÜST_/Grundgeruest/target/student-1.0-SNAPSHOT/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GRUNDGERÜST_/Grundgeruest/target/student-1.0-SNAPSHOT/index.xhtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Grundgeruest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Grundgeruest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Grundgeruest_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Grundgeruest_war.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Grundgeruest_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Grundgeruest_war_exploded.xml" afterDir="false" />
+    <list default="true" id="0f005aa4-10df-4a1b-b987-610bbff9c857" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../../FHV-Homepage - Kopie/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../FHV-Homepage - Kopie/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FHV-Homepage - Kopie/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../FHV-Homepage - Kopie/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FHV-Homepage - Kopie/target/guestbook-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../../FHV-Homepage - Kopie/target/guestbook-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Grundgeruest_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Grundgeruest_war_exploded.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Grundgeruest_war/Grundgeruest_war.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Grundgeruest_war_exploded/WEB-INF/classes/Beans/EvaluationBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Grundgeruest_war_exploded/WEB-INF/classes/Beans/resultController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Grundgeruest_war_exploded/WEB-INF/classes/Evaluation/DataBase_Manager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Grundgeruest_war_exploded/WEB-INF/classes/Evaluation/EntryReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Grundgeruest_war_exploded/WEB-INF/classes/Evaluation/EvalBaseDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Grundgeruest_war_exploded/WEB-INF/classes/Evaluation/EvalDatabaseFacade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Grundgeruest_war_exploded/WEB-INF/classes/Evaluation/EvalEntry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Grundgeruest_war_exploded/WEB-INF/classes/Evaluation/EvaluationDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Grundgeruest_war_exploded/WEB-INF/classes/Evaluation/EvaluationentryEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Grundgeruest_war_exploded/WEB-INF/classes/Guestbook/BaseDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Grundgeruest_war_exploded/WEB-INF/classes/Guestbook/DatabaseFacade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Grundgeruest_war_exploded/WEB-INF/classes/Guestbook/GuestbookEntryDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Grundgeruest_war_exploded/WEB-INF/classes/Guestbook/GuestbookEntryPOJO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Grundgeruest_war_exploded/WEB-INF/classes/Servlets/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Grundgeruest_war_exploded/WEB-INF/classes/Servlets/CookieServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Grundgeruest_war_exploded/WEB-INF/classes/Servlets/Guestbook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Grundgeruest_war_exploded/WEB-INF/classes/Servlets/GuestbookDisplayServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Grundgeruest_war_exploded/WEB-INF/classes/Servlets/History.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Grundgeruest_war_exploded/WEB-INF/classes/User/BaseDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Grundgeruest_war_exploded/WEB-INF/classes/User/DatabaseFacade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Grundgeruest_war_exploded/WEB-INF/classes/User/LoginSave.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Grundgeruest_war_exploded/WEB-INF/classes/User/UserEntry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Grundgeruest_war_exploded/WEB-INF/classes/User/UserEntryDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Grundgeruest_war_exploded/WEB-INF/classes/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Grundgeruest_war_exploded/WEB-INF/lib/antlr-2.7.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Grundgeruest_war_exploded/WEB-INF/lib/dom4j-1.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Grundgeruest_war_exploded/WEB-INF/lib/h2-1.4.196.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Grundgeruest_war_exploded/WEB-INF/lib/hibernate-commons-annotations-4.0.5.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Grundgeruest_war_exploded/WEB-INF/lib/hibernate-core-4.3.11.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Grundgeruest_war_exploded/WEB-INF/lib/hibernate-entitymanager-4.3.11.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Grundgeruest_war_exploded/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Grundgeruest_war_exploded/WEB-INF/lib/jandex-1.1.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Grundgeruest_war_exploded/WEB-INF/lib/javassist-3.18.1-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Grundgeruest_war_exploded/WEB-INF/lib/jboss-logging-3.1.3.GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Grundgeruest_war_exploded/WEB-INF/lib/jboss-logging-annotations-1.2.0.Beta1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Grundgeruest_war_exploded/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.0.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Grundgeruest_war_exploded/WEB-INF/lib/xml-apis-1.0.b2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Grundgeruest_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/endorsed/javaee-endorsed-api-7.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/Books.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/Evaluation.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/Films.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/Games.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/Guestbook.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/History.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/Mashup.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/Media.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/Registration.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/Result.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/ShowResults.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/Success.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/Test.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/WEB-INF/classes/Beans/EvaluationBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/WEB-INF/classes/Beans/resultController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/WEB-INF/classes/Evaluation/DataBase_Manager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/WEB-INF/classes/Evaluation/EntryReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/WEB-INF/classes/Evaluation/EvalBaseDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/WEB-INF/classes/Evaluation/EvalDatabaseFacade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/WEB-INF/classes/Evaluation/EvalEntry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/WEB-INF/classes/Evaluation/EvaluationDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/WEB-INF/classes/Evaluation/EvaluationentryEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/WEB-INF/classes/EvaluationDB/BaseDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/WEB-INF/classes/EvaluationDB/DatabaseFacade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/WEB-INF/classes/EvaluationDB/EvalEntry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/WEB-INF/classes/EvaluationDB/EvaluationDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/WEB-INF/classes/Guestbook/BaseDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/WEB-INF/classes/Guestbook/DatabaseFacade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/WEB-INF/classes/Guestbook/GuestbookEntryDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/WEB-INF/classes/Guestbook/GuestbookEntryPOJO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/WEB-INF/classes/Servlets/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/WEB-INF/classes/Servlets/CookieServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/WEB-INF/classes/Servlets/Guestbook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/WEB-INF/classes/Servlets/GuestbookDisplayServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/WEB-INF/classes/Servlets/History.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/WEB-INF/classes/Test/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/WEB-INF/classes/User/BaseDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/WEB-INF/classes/User/DatabaseFacade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/WEB-INF/classes/User/LoginSave.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/WEB-INF/classes/User/UserEntry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/WEB-INF/classes/User/UserEntryDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/WEB-INF/classes/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/WEB-INF/faces-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/WEB-INF/lib/antlr-2.7.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/WEB-INF/lib/dom4j-1.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/WEB-INF/lib/h2-1.4.196.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/WEB-INF/lib/hibernate-commons-annotations-4.0.5.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/WEB-INF/lib/hibernate-core-4.3.11.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/WEB-INF/lib/hibernate-entitymanager-4.3.11.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/WEB-INF/lib/jandex-1.1.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.18.1-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/WEB-INF/lib/jboss-logging-3.1.3.GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/WEB-INF/lib/jboss-logging-annotations-1.2.0.Beta1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.0.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/WEB-INF/lib/xml-apis-1.0.b2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/bibliothekHeader.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/bibliothekLayout.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/emailicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-1.0-SNAPSHOT/index.xhtml" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -71,90 +126,8 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="hibernate.cfg.xml/Hibernate" type="feb32156:DbDataSourceImpl" />
-      </path>
-    </expand>
-    <select />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1883321655">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.55" value="1" />
-          <entry key="project.open.time.65" value="1" />
-          <entry key="project.opened" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="BaseDAO" value="2" />
-          <entry key="CookieServlet" value="1" />
-          <entry key="DatabaseFacade" value="1" />
-          <entry key="Guestbook" value="2" />
-          <entry key="GuestbookEntryDAO" value="1" />
-          <entry key="History" value="1" />
-          <entry key="iml" value="1" />
-          <entry key="java" value="14" />
-          <entry key="sql" value="1" />
-          <entry key="xhtml" value="3" />
-          <entry key="xml" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="22" />
-          <entry key="Scratch" value="1" />
-          <entry key="XHTML" value="3" />
-          <entry key="XML" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="53" />
-          <entry key="xhtml" value="23" />
-          <entry key="xml" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="53" />
-          <entry key="XHTML" value="23" />
-          <entry key="XML" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.spring.boot.mvc.usages" />
-      <usages-collector id="statistics.spring.boot.run.usages" />
-      <usages-collector id="statistics.js.language.service.starts" />
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GuestbookDisplayServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Servlets/GuestbookDisplayServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Servlets/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -170,8 +143,8 @@
       <file leaf-file-name="Guestbook.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Servlets/Guestbook.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="56" column="32" lean-forward="true" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
+            <state relative-caret-position="183">
+              <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -241,85 +214,13 @@
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="XHTML File" />
-        <option value="facelets" />
-        <option value="package-info" />
-        <option value="jsf" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>eval</find>
-      <find>BaseDAO</find>
-      <find>user</find>
-      <find>marcel</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>EvalEntry</replace>
-      <replace>BasePlattDAO</replace>
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/stud.xhtml" />
-        <option value="$PROJECT_DIR$/src/ManagedBeans/SaveEvaluation.java" />
-        <option value="$PROJECT_DIR$/src/ManagedBeans/SaveEvaluationCntrlr.java" />
-        <option value="$PROJECT_DIR$/src/ManagedBeans/Student.java" />
-        <option value="$PROJECT_DIR$/src/Controller/SaveEvaluationCntrlr.java" />
-        <option value="$PROJECT_DIR$/src/SaveToDatabase/SaveEvaluation.java" />
-        <option value="$PROJECT_DIR$/src/EvaluationDB/UserEntryDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/UserEntryDAO.java" />
-        <option value="$PROJECT_DIR$/src/Student.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mvc/LoginSave.java" />
-        <option value="$PROJECT_DIR$/src/EvaluationDB/UserEntry.java" />
-        <option value="$PROJECT_DIR$/src/EvaluationDB/EvaluationDao.java" />
-        <option value="$PROJECT_DIR$/src/EvaluationDB/EvaluationDAO.java" />
-        <option value="$PROJECT_DIR$/src/EvaluationDB/EvalEntry.java" />
-        <option value="$PROJECT_DIR$/src/main/java/EvaluationDB/BaseDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/EvaluationDB/DatabaseFacade.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Controller/Student.java" />
-        <option value="$PROJECT_DIR$/src/main/java/EvaluationDB/BasePlattDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/EvaluationDB/PlattEntry.java" />
-        <option value="$PROJECT_DIR$/src/main/java/EvaluationDB/EvaluationDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/EvaluationDB/PlatEntry.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SaveToDatabase/SaveEvaluation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Controller/SaveEvaluationController.java" />
-        <option value="$PROJECT_DIR$/web/student_response.xhtml" />
-        <option value="$PROJECT_DIR$/web/indexM.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/EvaluationDB/EvalEntry.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Test/ShowEvaluationEntries.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Controller/EvaluationController.java" />
-        <option value="$PROJECT_DIR$/web/index..xhtml" />
-        <option value="$PROJECT_DIR$/web/seeResults.xhtml" />
-        <option value="$PROJECT_DIR$/web/Resultat.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/java/Controller/ResultatController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/EvaluationDatabase/Database_Manager.java" />
-        <option value="$PROJECT_DIR$/web/Evaluation.xhtml" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/Success.xhtml" />
-        <option value="$PROJECT_DIR$/web/GuestBookEntry.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/java/Test/Test.java" />
-        <option value="$PROJECT_DIR$/web/Evaluation" />
-        <option value="$PROJECT_DIR$/web/index.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/java/Beans/EvaluationBean.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/Servlets/GuestbookDisplayServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Servlets/History.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Servlets/CookieServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Guestbook/GuestbookEntryPOJO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Guestbook/DatabaseFacade.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Guestbook/GuestbookEntryDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Guestbook/BaseDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Servlets/Guestbook.java" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
       </list>
     </option>
   </component>
@@ -331,7 +232,7 @@
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
-    <option name="FILTER_WARNINGS" value="true" />
+    <option name="FILTER_WARNINGS" value="false" />
     <option name="FILTER_INFO" value="true" />
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
@@ -343,32 +244,14 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="StudentEva" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="StudentEva" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
-<<<<<<< HEAD
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-=======
+  <component name="PhpServers">
+    <servers />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
->>>>>>> d4f908037a3abf16b973647182c0df15f746586a
-    <option name="x" value="-342" />
-    <option name="y" value="99" />
+    <option name="y" value="27" />
     <option name="width" value="1617" />
     <option name="height" value="879" />
   </component>
@@ -378,7 +261,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -386,11 +269,16 @@
               <item name="Grundgeruest" type="b2602c69:ProjectViewProjectNode" />
               <item name="Grundgeruest" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Grundgeruest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Grundgeruest" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -398,36 +286,14 @@
     <property name="DefaultHtmlFileTemplate" value="XHTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-<<<<<<< HEAD
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536618573092" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-=======
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536618885480" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
->>>>>>> d4f908037a3abf16b973647182c0df15f746586a
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\HP EliteBook 8440p\Documents\GitHub\Web-Projects\Grundgerüst\Grundgeruest\web" />
-      <recent name="D:\chris\Web-Projects\Grundgerüst\Grundgeruest\src\main" />
-      <recent name="D:\IntelliJ\StudentEva\web" />
-      <recent name="D:\IntelliJ\StudentEva\src\main\java\Controller" />
-      <recent name="D:\IntelliJ\StudentEva" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="Controller" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\csc4810\Desktop\Web-Projects\Grundgerüst\Grundgeruest\web" />
-      <recent name="C:\Users\csc4810\Desktop\StudentEva\web" />
-      <recent name="D:\IntelliJ\StudentEva\src\main\java" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -441,40 +307,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="GlassFish Server.Test">
-    <configuration name="ShowEvaluationEntries" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.ShowEvaluationEntries" />
-      <module name="StudentEva" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.Test" />
-      <module name="StudentEva" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method>
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
-    <configuration name="Test" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 5.0.0" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/student-1.0-SNAPSHOT/index.xhtml" />
+    <configuration name="Unnamed" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 5.0.0" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/Grundgeruest_Web_exploded/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="Grundgeruest:war">
+        <artifact name="Grundgeruest:Web exploded">
           <settings />
         </artifact>
       </deployment>
@@ -537,79 +378,7 @@
       </ConfigurationWrapper>
       <method>
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="StudentEva:war exploded" />
-          <artifact name="Grundgeruest:war" />
-        </option>
-      </method>
-    </configuration>
-    <configuration name="Unnamed" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 4.1.1" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/student-1.0-SNAPSHOT/" />
-      <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment>
-        <artifact name="StudentEva:war">
-          <settings />
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="DOMAIN" value="domain1" />
-        <option name="PRESERVE" value="false" />
-        <option name="COMPATIBILITY" value="false" />
-        <option name="VIRTUAL_SERVER" />
-        <option name="USERNAME" value="admin" />
-        <option name="PASSWORD" value="" />
-      </server-settings>
-      <predefined_log_file id="GlassFish" enabled="true" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="9009" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method>
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="StudentEva:war" />
+          <artifact name="Grundgeruest:Web exploded" />
         </option>
       </method>
     </configuration>
@@ -620,7 +389,7 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
+      <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="PASS_PARENT_ENVS" value="true" />
@@ -628,9 +397,6 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
-      <method>
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -641,7 +407,7 @@
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
+      <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="OUTPUT_DIRECTORY" />
@@ -653,29 +419,14 @@
       <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
-      <method>
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
-    <list>
-      <item itemvalue="GlassFish Server.Unnamed" />
-      <item itemvalue="GlassFish Server.Test" />
-      <item itemvalue="Application.ShowEvaluationEntries" />
-      <item itemvalue="Application.Test" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.ShowEvaluationEntries" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8742668f-494b-4f33-85fb-9dd918dc07d4" name="Default" comment="" />
+      <changelist id="0f005aa4-10df-4a1b-b987-610bbff9c857" name="Default" comment="" />
       <created>1524603954508</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -710,67 +461,46 @@
       <workItem from="1530022517715" duration="6000" />
       <workItem from="1536603385443" duration="1273000" />
       <workItem from="1536604827338" duration="1166000" />
-<<<<<<< HEAD
       <workItem from="1536615943100" duration="2600000" />
       <workItem from="1536619421314" duration="289000" />
       <workItem from="1536619819881" duration="334000" />
-=======
-      <workItem from="1536615943100" duration="2827000" />
->>>>>>> d4f908037a3abf16b973647182c0df15f746586a
+      <workItem from="1536620185577" duration="826000" />
+      <workItem from="1536621703223" duration="382000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< HEAD
-    <option name="totallyTimeSpent" value="52516000" />
-=======
-    <option name="totallyTimeSpent" value="52120000" />
->>>>>>> d4f908037a3abf16b973647182c0df15f746586a
+    <option name="totallyTimeSpent" value="983000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
     <layout>
-<<<<<<< HEAD
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.16680162" side_tool="true" weight="0.32561985" />
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32884097" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3272727" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.32904884" />
       <window_info anchor="right" id="CDI" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info id="Capture Tool" order="7" />
-=======
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2647815" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Persistence" order="2" side_tool="true" />
->>>>>>> d4f908037a3abf16b973647182c0df15f746586a
       <window_info id="Designer" order="3" />
       <window_info anchor="right" id="Database" order="6" weight="0.32969153" />
       <window_info anchor="right" id="JSF" order="5" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="5" />
-<<<<<<< HEAD
-=======
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Capture Tool" order="7" />
-      <window_info id="Web" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49960968" weight="0.32479784" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7470726" visible="true" weight="0.32614556" />
->>>>>>> d4f908037a3abf16b973647182c0df15f746586a
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49882904" weight="0.39757413" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.4918033" weight="0.32614556" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.4918033" weight="0.32561985" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32884097" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32884097" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.83319837" weight="0.32561985" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.83319837" visible="true" weight="0.32561985" />
       <window_info anchor="bottom" id="Sequence" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32884097" />
       <window_info id="Persistence" order="2" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26477733" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26963562" />
       <window_info anchor="right" id="Bean Validation" order="11" weight="0.32955465" />
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="9" />
@@ -782,44 +512,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Persistence" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Application Servers" order="7" />
-      <window_info id="Designer" order="3" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info id="Image Layers" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7470726" weight="0.32614556" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" id="JSF" order="5" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info id="Capture Tool" order="7" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Sequence" order="8" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.2529274" side_tool="true" weight="0.32663316" />
-      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.4918033" visible="true" weight="0.32614556" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32904884" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2647815" />
-      <window_info anchor="right" id="Database" order="6" weight="0.32969153" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Web" order="8" side_tool="true" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="CDI" order="10" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49960968" weight="0.32561985" />
-      <window_info anchor="right" id="Bean Validation" order="11" weight="0.32955465" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49882904" weight="0.39865997" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -919,9 +611,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/StudentEva.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1001,10 +690,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Servlets/Guestbook.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="56" column="32" lean-forward="true" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
+        <state relative-caret-position="183">
+          <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -1014,11 +710,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>Grundgeruest:war</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1026,7 +723,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Web</last-edited>
+          <last-edited>Hibernate</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1073,7 +770,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
