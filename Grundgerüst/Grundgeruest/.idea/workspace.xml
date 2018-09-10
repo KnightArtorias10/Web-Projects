@@ -3,7 +3,10 @@
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
       <artifact name="Grundgeruest:war" />
+<<<<<<< HEAD
       <artifact name="Grundgeruest:war exploded" />
+=======
+>>>>>>> d4f908037a3abf16b973647182c0df15f746586a
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
@@ -356,10 +359,14 @@
       <select />
     </treeState>
   </component>
+<<<<<<< HEAD
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
+=======
+  <component name="ProjectFrameBounds" extendedState="6">
+>>>>>>> d4f908037a3abf16b973647182c0df15f746586a
     <option name="x" value="-342" />
     <option name="y" value="99" />
     <option name="width" value="1617" />
@@ -379,32 +386,6 @@
               <item name="Grundgeruest" type="b2602c69:ProjectViewProjectNode" />
               <item name="Grundgeruest" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Grundgeruest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Grundgeruest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Grundgeruest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Grundgeruest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Grundgeruest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Grundgeruest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Grundgeruest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Grundgeruest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Guestbook" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -417,11 +398,16 @@
     <property name="DefaultHtmlFileTemplate" value="XHTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536618573092" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+=======
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536618885480" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
+>>>>>>> d4f908037a3abf16b973647182c0df15f746586a
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
@@ -491,9 +477,6 @@
         <artifact name="Grundgeruest:war">
           <settings />
         </artifact>
-        <artifact name="Grundgeruest:war exploded">
-          <settings />
-        </artifact>
       </deployment>
       <server-settings>
         <option name="DOMAIN" value="domain1" />
@@ -556,7 +539,6 @@
         <option name="BuildArtifacts" enabled="true">
           <artifact name="StudentEva:war exploded" />
           <artifact name="Grundgeruest:war" />
-          <artifact name="Grundgeruest:war exploded" />
         </option>
       </method>
     </configuration>
@@ -728,18 +710,27 @@
       <workItem from="1530022517715" duration="6000" />
       <workItem from="1536603385443" duration="1273000" />
       <workItem from="1536604827338" duration="1166000" />
+<<<<<<< HEAD
       <workItem from="1536615943100" duration="2600000" />
       <workItem from="1536619421314" duration="289000" />
       <workItem from="1536619819881" duration="334000" />
+=======
+      <workItem from="1536615943100" duration="2827000" />
+>>>>>>> d4f908037a3abf16b973647182c0df15f746586a
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="52516000" />
+=======
+    <option name="totallyTimeSpent" value="52120000" />
+>>>>>>> d4f908037a3abf16b973647182c0df15f746586a
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
     <layout>
+<<<<<<< HEAD
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.16680162" side_tool="true" weight="0.32561985" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32884097" />
@@ -747,12 +738,26 @@
       <window_info anchor="right" id="CDI" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info id="Capture Tool" order="7" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2647815" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Persistence" order="2" side_tool="true" />
+>>>>>>> d4f908037a3abf16b973647182c0df15f746586a
       <window_info id="Designer" order="3" />
       <window_info anchor="right" id="Database" order="6" weight="0.32969153" />
       <window_info anchor="right" id="JSF" order="5" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="5" />
+<<<<<<< HEAD
+=======
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49960968" weight="0.32479784" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7470726" visible="true" weight="0.32614556" />
+>>>>>>> d4f908037a3abf16b973647182c0df15f746586a
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49882904" weight="0.39757413" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.4918033" weight="0.32614556" />
@@ -1014,7 +1019,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
