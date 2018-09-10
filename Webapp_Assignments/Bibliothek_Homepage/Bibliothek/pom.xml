@@ -11,7 +11,7 @@
 
   <name>Bibliothek Maven Webapp</name>
   <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
+  <url>http://maven.apache.org</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -22,11 +22,15 @@
   <dependencies>
       <!-- https://mvnrepository.com/artifact/javax/javaee-api -->
       <dependency>
-          <groupId>javax</groupId>
-          <artifactId>javaee-api</artifactId>
-          <version>7.0</version>
-          <scope>provided</scope>
-      </dependency>
+      <groupId>javax</groupId>
+      <artifactId>javaee-api</artifactId>
+      <version>7.0</version>
+  </dependency>
+    <dependency>
+        <groupId>mysql</groupId>
+        <artifactId>mysql-connector-java</artifactId>
+        <version>5.1.27</version>
+    </dependency>
 
       <dependency>
       <groupId>junit</groupId>
@@ -53,6 +57,14 @@
           <artifactId>hibernate-entitymanager</artifactId>
           <version>4.3.11.Final</version>
       </dependency>
+
+      <!-- https://mvnrepository.com/artifact/org.clojure/java.jdbc -->
+      <dependency>
+          <groupId>org.clojure</groupId>
+          <artifactId>java.jdbc</artifactId>
+          <version>0.6.1</version>
+      </dependency>
+
 
       <!-- https://mvnrepository.com/artifact/com.h2database/h2 -->
       <dependency>

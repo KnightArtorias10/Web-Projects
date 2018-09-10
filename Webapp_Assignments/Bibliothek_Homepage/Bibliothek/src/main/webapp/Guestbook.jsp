@@ -57,22 +57,10 @@
         <tr><b>Kommentar:</b></tr>
         <tr><input type="text" cols="10" rows="20" id="comment"/></tr>
         <br>
-        <input type="submit" value="Absenden" onclick=""return validate()"/>
+        <input type="submit" value="Absenden" onclick="return validate()"/>
     </table>
 </center>
 </form>
-<%
-    List<GuestbookEntryPOJO> guestbookEntries = (List<GuestbookEntryPOJO>) request.getAttribute("guestbookEntries");
-    ListIterator<GuestbookEntryPOJO> it = guestbookEntries.listIterator(guestbookEntries.size());
-    while(it.hasPrevious()) {
-        GuestbookEntryPOJO entry = it.previous();
-        out.println("<b>Email:</b> <a href=\"mailto:" + entry.getEmail() + "\">" + entry.getEmail() + "</a><br>");
-        System.out.println("<b>Email:</b> <a href=\"mailto:" + entry.getEmail() + "\"><br>");
-        out.println("<b>Kommentar:</b> " + entry.getComment() + "<br><br>");
-        out.println("<hr noshade>");
-    }
-    out.println("</body>");
-    out.flush();
-%>
+
 </body>
 </html>

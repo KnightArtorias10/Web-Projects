@@ -6,7 +6,7 @@
       <secret-storage>master_key</secret-storage>
       <first-sync>true</first-sync>
     </data-source>
-    <data-source name="hibernate.cfg.xml/Hibernate" uuid="6c5f7dd6-2b3a-4034-9b3d-5eb375bc06c8">
+    <data-source name="H2DB" uuid="6c5f7dd6-2b3a-4034-9b3d-5eb375bc06c8">
       <database-info product="H2" version="1.4.196 (2017-06-10)" jdbc-version="4.0" driver-name="H2 JDBC Driver" driver-version="1.4.196 (2017-06-10)" family="H2" exact-version="1.4.196">
         <identifier-quote-string>&quot;</identifier-quote-string>
       </database-info>

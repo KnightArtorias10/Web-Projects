@@ -5,7 +5,6 @@ import java.util.List;
 
 /**
  * Fassade als einziger Anlaufpunkt f�r die dar�berliegende Applikationsschicht, um auf die Datenbank zuzugreifen
- * @author sonja
  *
  */
 public class DatabaseFacade {

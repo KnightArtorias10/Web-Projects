@@ -6,9 +6,9 @@
   Time: 18:46
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page  import="java.util.List" %>
+<%@ page  import="Guestbook.GuestbookEntryPOJO" %>
+<%@ page import="java.util.List" %>
 <%@ page import="java.util.ListIterator" %>
-<%@ page import="Guestbook.GuestbookEntryPOJO" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>

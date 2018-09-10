@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataSource name="hibernate.cfg.xml/Hibernate">
+<dataSource name="H2DB">
   <database-model serializer="dbm" rdbms="H2" format-version="4.10">
     <root id="1">
       <ServerVersion>1.4.196</ServerVersion>
@@ -15,50 +15,67 @@
     </schema>
     <table id="5" parent="4" name="EVALUATIONENTRY"/>
     <table id="6" parent="4" name="GUESTBOOKENTRY"/>
-    <column id="7" parent="5" name="ID">
+    <table id="7" parent="4" name="USERS"/>
+    <column id="8" parent="5" name="ID">
       <Position>1</Position>
       <DataType>INTEGER(10)|4s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <DefaultExpression>(NEXT VALUE FOR PUBLIC.SYSTEM_SEQUENCE_1AEC54D4_AF6B_44A4_9901_C061F4530AB4)</DefaultExpression>
     </column>
-    <column id="8" parent="5" name="NAME">
+    <column id="9" parent="5" name="NAME">
       <Position>2</Position>
       <DataType>VARCHAR(255)|12s</DataType>
     </column>
-    <column id="9" parent="5" name="MEDIUM">
+    <column id="10" parent="5" name="MEDIUM">
       <Position>3</Position>
       <DataType>VARCHAR(255)|12s</DataType>
     </column>
-    <column id="10" parent="5" name="TITLE">
+    <column id="11" parent="5" name="TITLE">
       <Position>4</Position>
       <DataType>VARCHAR(255)|12s</DataType>
     </column>
-    <column id="11" parent="5" name="RATING">
+    <column id="12" parent="5" name="RATING">
       <Position>5</Position>
       <DataType>VARCHAR(255)|12s</DataType>
     </column>
-    <column id="12" parent="5" name="AUDIENCE">
+    <column id="13" parent="5" name="AUDIENCE">
       <Position>6</Position>
       <DataType>VARCHAR(255)|12s</DataType>
     </column>
-    <column id="13" parent="5" name="COMMENT">
+    <column id="14" parent="5" name="COMMENT">
       <Position>7</Position>
       <DataType>VARCHAR(255)|12s</DataType>
     </column>
-    <column id="14" parent="6" name="ID">
+    <column id="15" parent="6" name="ID">
       <Position>1</Position>
       <DataType>INTEGER(10)|4s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <DefaultExpression>(NEXT VALUE FOR PUBLIC.SYSTEM_SEQUENCE_383F7BA0_C301_4343_AE6F_6938139F95F1)</DefaultExpression>
     </column>
-    <column id="15" parent="6" name="EMAIL">
+    <column id="16" parent="6" name="EMAIL">
       <Position>2</Position>
       <DataType>VARCHAR(255)|12s</DataType>
     </column>
-    <column id="16" parent="6" name="COMMENT">
+    <column id="17" parent="6" name="COMMENT">
       <Position>3</Position>
+      <DataType>VARCHAR(255)|12s</DataType>
+    </column>
+    <column id="18" parent="7" name="ID">
+      <Position>1</Position>
+      <DataType>VARCHAR(255)|12s</DataType>
+    </column>
+    <column id="19" parent="7" name="FIRSTNAME">
+      <Position>2</Position>
+      <DataType>VARCHAR(255)|12s</DataType>
+    </column>
+    <column id="20" parent="7" name="LASTNAME">
+      <Position>3</Position>
+      <DataType>VARCHAR(255)|12s</DataType>
+    </column>
+    <column id="21" parent="7" name="PASSWORD">
+      <Position>4</Position>
       <DataType>VARCHAR(255)|12s</DataType>
     </column>
   </database-model>

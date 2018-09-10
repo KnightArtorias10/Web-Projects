@@ -7,7 +7,7 @@
       <jdbc-driver>org.h2.Driver</jdbc-driver>
       <jdbc-url>jdbc:h2:tcp://localhost:9092/default</jdbc-url>
     </data-source>
-    <data-source source="LOCAL" name="hibernate.cfg.xml/Hibernate" uuid="6c5f7dd6-2b3a-4034-9b3d-5eb375bc06c8">
+    <data-source source="LOCAL" name="H2DB" uuid="6c5f7dd6-2b3a-4034-9b3d-5eb375bc06c8">
       <driver-ref>h2.unified</driver-ref>
       <synchronize>true</synchronize>
       <imported>true</imported>
