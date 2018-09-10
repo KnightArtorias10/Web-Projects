@@ -1,7 +1,6 @@
 package Servlets;
 
-import Guestbook.DatabaseFacade;
-import Guestbook.GuestbookEntryPOJO;
+import Guestbook.*;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
