@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="hibernate.cfg.xml/Hibernate" uuid="7433b544-10ab-4acb-b81d-be649cc0b375">
+      <database-info product="H2" version="1.4.196 (2017-06-10)" jdbc-version="4.0" driver-name="H2 JDBC Driver" driver-version="1.4.196 (2017-06-10)">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact" />
+      <user-name>sa</user-name>
+      <introspection-schemas>TEST:PUBLIC</introspection-schemas>
+    </data-source>
+    <data-source name="hibernate.cfg.xml/Hibernate" uuid="46c48eea-a0b5-48d4-8634-49a79b1ea6be">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <user-name>sa</user-name>
+    </data-source>
+    <data-source name="hibernate.cfg.xml/Hibernate" uuid="6742b163-bd2e-4f3a-91ff-62a0d2c45c12">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <user-name>sa</user-name>
+    </data-source>
+  </component>
+</project>
