@@ -1,0 +1,11 @@
+body { background-color: green;
+    color: white;
+    font-family: italic;
+ }
+
+h1 { color: orange;
+     font-family: "Arial Narrow";
+ }
+
+b { color: orange; }
+a { color: white; }
