@@ -5,9 +5,9 @@
  */
 package Guestbook;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Table;
+import javax.persistence.*;
+
+import static javax.persistence.GenerationType.IDENTITY;
 
 /**
  *
@@ -19,6 +19,19 @@ import javax.persistence.Table;
 public class GuestbookEntryPOJO {
     private String email;
     private String comment;
+    private int id;
+
+    @Id
+    @GeneratedValue(strategy = IDENTITY)
+    @Column(name = "id")
+    public int getID() {
+        return id;
+    }
+
+    public void setID(int id) {
+        this.id = id;
+    }
+
 
     @Column (name="email")
     public String getEmail() { return email; }
