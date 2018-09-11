@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="FHV-Homepage:war2">
+    <output-path>$PROJECT_DIR$/out/artifacts/FHV_Homepage_war2</output-path>
+    <root id="archive" name="FHV-Homepage_war.war">
+      <element id="artifact" artifact-name="FHV-Homepage:war exploded" />
+    </root>
+  </artifact>
+</component>
