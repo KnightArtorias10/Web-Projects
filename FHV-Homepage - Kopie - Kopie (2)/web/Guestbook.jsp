@@ -1,4 +1,3 @@
-<%@ taglib prefix="h" uri="http://java.sun.com/jsf/html" %>
 <%--
   Created by IntelliJ IDEA.
   User: HP EliteBook 8440p

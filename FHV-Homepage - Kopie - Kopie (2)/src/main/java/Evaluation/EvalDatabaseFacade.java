@@ -3,7 +3,7 @@ package Evaluation;
 import java.util.List;
 
 public class EvalDatabaseFacade {
-        public List<EvaluationentryEntity> listAllEntries() {
+        public List<EvalEntry> listAllEntries() {
             EvaluationDAO dao = EvaluationDAO.getInstance();
             return dao.loadAll();
         }

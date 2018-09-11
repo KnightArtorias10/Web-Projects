@@ -8,7 +8,7 @@ package Evaluation;
  * @author sonja
  *
  */
-public class EvaluationDAO extends EvalBaseDAO<EvaluationentryEntity, String> {
+public class EvaluationDAO extends EvalBaseDAO<EvalEntry, String> {
 
     private static EvaluationDAO instance;
 
@@ -20,7 +20,7 @@ public class EvaluationDAO extends EvalBaseDAO<EvaluationentryEntity, String> {
     }
 
     public EvaluationDAO() {
-        super(EvaluationentryEntity.class);
+        super(EvalEntry.class);
     }
 
     /**

@@ -5,6 +5,9 @@
  */
 package Servlets;
 
+import Guestbook.GuestbookEntryPOJO;
+import Guestbook.DatabaseFacade;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -29,13 +32,13 @@ public class Guestbook extends HttpServlet {
     static final String PASSWORD = "";
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
-        // GuestbookEntryPOJO entry = new GuestbookEntryPOJO();
-        //DatabaseFacade facade = new DatabaseFacade();
+        GuestbookEntryPOJO entry = new GuestbookEntryPOJO();
+        DatabaseFacade facade = new DatabaseFacade();
 
-        //entry.setEmail(request.getParameter("Email"));
-        // entry.setComment(request.getParameter("Comment"));
-        // facade.insert(entry);
-        // response.sendRedirect("Show");
+        entry.setEmail(request.getParameter("Email"));
+        entry.setComment(request.getParameter("Comment"));
+        facade.insert(entry);
+        response.sendRedirect("Show");
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
