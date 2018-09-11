@@ -35,8 +35,8 @@ public class Guestbook extends HttpServlet {
         GuestbookEntryPOJO entry = new GuestbookEntryPOJO();
         DatabaseFacade facade = new DatabaseFacade();
 
-        entry.setEmail(request.getParameter("Email"));
-        entry.setComment(request.getParameter("Comment"));
+        entry.setEmail(request.getParameter("email"));
+        entry.setComment(request.getParameter("comment"));
         facade.insert(entry);
         response.sendRedirect("Show");
     }

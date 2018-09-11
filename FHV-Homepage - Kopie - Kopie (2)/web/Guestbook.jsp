@@ -26,37 +26,18 @@
             setCookie("lastpage", "Guestbook.jsp", 30);
         }
     </script>
-
-    <script>
-        function validate() {
-            var email = document.getElementById("email");
-            var comment = document.getElementById("comment");
-
-            if(email.equals(null) || email.equals("")) {
-                alert("Geben Sie Ihre E-Mail-Addresse ein!");
-                return false;
-            }
-
-            if(comment.equals("null") || comment.equals("")) {
-                alert("Geben Sie einen Kommentar ein!");
-                return false;
-            }
-
-            return true;
-        }
-    </script>
 </head>
 <body onload="cookieSetter()">
 <form action="Guestbook" method="POST">
 <center>
     <table>
         <tr>
-            <td><b>E-Mail:</b></td><td><input type="text" id="email"/></td>
+            <td><b>E-Mail:</b></td><td><input type="text" name="email" id="email"></td>
         </tr>
         <tr><b>Kommentar:</b></tr>
-        <tr><input type="text" cols="10" rows="20" id="comment"/></tr>
+        <tr><input type="text" cols="10" rows="20" name="comment" id="comment"></tr>
         <br>
-        <input type="submit" value="Absenden" onclick="return validate()"/>
+        <input type="submit" value="Absenden">
     </table>
 </center>
 </form>
