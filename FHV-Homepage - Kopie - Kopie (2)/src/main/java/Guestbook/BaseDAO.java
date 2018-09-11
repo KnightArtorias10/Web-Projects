@@ -30,7 +30,7 @@ public abstract class BaseDAO<T, PK extends Serializable> {
         this.type = type;
 
         Configuration configuration = new Configuration();
-        configuration.configure("src/hibernate.cfg.xml");
+        configuration.configure("hibernate.cfg.xml");
         configuration.addAnnotatedClass(GuestbookEntryPOJO.class);
 
 
