@@ -42,6 +42,7 @@
 </center>
 </form>
 <%
+    if (request.getAttribute("guestbookEntries") != null) {
     List<GuestbookEntryPOJO> guestbookEntries = (List<GuestbookEntryPOJO>) request.getAttribute("guestbookEntries");
     for(GuestbookEntryPOJO entry : guestbookEntries) {
         out.println("<b>Email:</b> <a href=\"mailto:" + entry.getEmail() + "\">" + entry.getEmail() + "</a><br>");
@@ -51,6 +52,8 @@
     }
     out.println("</body>");
     out.flush();
+
+    }
 %>
 </body>
 </html>
