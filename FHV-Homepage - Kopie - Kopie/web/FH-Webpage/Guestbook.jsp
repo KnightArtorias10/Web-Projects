@@ -77,8 +77,8 @@
   <%
       List<GuestbookEntry> guestbookEntries = (List<GuestbookEntry>) request.getAttribute("guestbookEntries");
       ListIterator<GuestbookEntry> it = guestbookEntries.listIterator(guestbookEntries.size());
-      while(it.hasPrevious()) {
-          GuestbookEntry entry = it.previous();
+      while(it.hasNext()) {
+          GuestbookEntry entry = it.next();
           out.println(entry.getTimestamp() + " <br><b>Name:</b> " + entry.getName() + "<br>");
           out.println("<b>Email:</b> <a href=\"mailto:" + entry.getEmail() + "\">" + entry.getEmail() + "</a><br>");
           System.out.println("<b>Email:</b> <a href=\"mailto:" + entry.getEmail() + "\"><br>");

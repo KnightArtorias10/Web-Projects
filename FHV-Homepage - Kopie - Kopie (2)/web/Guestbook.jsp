@@ -41,6 +41,16 @@
     </table>
 </center>
 </form>
-
+<%
+    List<GuestbookEntryPOJO> guestbookEntries = (List<GuestbookEntryPOJO>) request.getAttribute("guestbookEntries");
+    for(GuestbookEntryPOJO entry : guestbookEntries) {
+        out.println("<b>Email:</b> <a href=\"mailto:" + entry.getEmail() + "\">" + entry.getEmail() + "</a><br>");
+        System.out.println("<b>Email:</b> <a href=\"mailto:" + entry.getEmail() + "\"><br>");
+        out.println("<b>Kommentar:</b> " + entry.getComment() + "<br><br>");
+        out.println("<hr noshade>");
+    }
+    out.println("</body>");
+    out.flush();
+%>
 </body>
 </html>

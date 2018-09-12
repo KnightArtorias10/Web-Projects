@@ -5,8 +5,8 @@
  */
 package Servlets;
 
-import Guestbook.GuestbookEntryPOJO;
 import Guestbook.DatabaseFacade;
+import Guestbook.GuestbookEntryPOJO;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -14,10 +14,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
-import java.sql.Statement;
 
 /**
  *
@@ -43,23 +39,5 @@ public class Guestbook extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        response.setContentType("text/html");
-
-        try {
-            Class.forName(DRIVER);
-            Connection con = DriverManager.getConnection(URL, USER, PASSWORD);
-            Statement statement = con.createStatement();
-            String sqlInsert = "INSERT INTO GUESTBOOK(email, comment)" + "VALUES (" +request.getParameter("email") + "," +request.getParameter("comment");
-
-            response.sendRedirect("guestbook.jsp");
-            statement.execute(sqlInsert);
-            statement.close();
-            con.close();
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
     }
-
 }
